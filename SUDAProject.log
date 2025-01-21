@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.7.3)  20 JUN 2023 21:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.7.3)  21 JAN 2025 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -870,6 +870,7 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 
 
 ]
+\zihao {-2}2
 
 Package fontspec Info: Font "FandolKai-Regular" does not contain requested
 (fontspec)             Script "CJK".
@@ -886,58 +887,50 @@ Package fontspec Info: Font family 'FandolKai-Regular(0)' created for font
 (fontspec)             <->"[FandolKai-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [2]
-\zihao {-2}2
-Missing character: There is no 俍 (U+4FCD) in font [FandolSong-Regular.otf]/OT:language=dflt;!
-[3
-
-]
 
 Package fontspec Info: Font "FandolFang-Regular" does not contain requested
 (fontspec)             Script "CJK".
 
- [4] [5]
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 256.
-Package hyperref Info: bookmark level for unknown proof defaults to 0 on input line 261.
- [6]
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 278.
-Package hyperref Info: bookmark level for unknown remark defaults to 0 on input line 283.
-Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 287.
-Package hyperref Info: bookmark level for unknown example defaults to 0 on input line 291.
-Package hyperref Info: bookmark level for unknown corollary defaults to 0 on input line 295.
+[2
+
+] [3] [4]
+Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 210.
+Package hyperref Info: bookmark level for unknown proof defaults to 0 on input line 215.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 232.
+Package hyperref Info: bookmark level for unknown remark defaults to 0 on input line 237.
+Package hyperref Info: bookmark level for unknown proposition defaults to 0 on input line 241.
+Package hyperref Info: bookmark level for unknown example defaults to 0 on input line 245.
+Package hyperref Info: bookmark level for unknown corollary defaults to 0 on input line 249.
+ [5]
 File: figures//Daisy.jpg Graphic file (type bmp)
 <figures//Daisy.jpg>
- [7] [8]
-\zihao {-2}3
-[9
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 []\TU/TimesNewRoman(0)/m/n/12.045 Herbert Voß, Mathmode, []$[][][][] [] [] [] [][][] [] [][][] [] [][] [] [][] [] [][][][] [] [][][][] [] [][][][] [] [][][][] []
  []
 
-[10
+[7
 
 
 ]
 \openout2 = `includefile/backmatter.aux'.
 
- (./includefile/backmatter.tex) [11
+ (./includefile/backmatter.tex) [8
 
 
 ]
 附录 A
-[12
+[9
 
 
 
 ]
 附录 B
-[13
+[10
 
 ]
 附录 C
-[14
+[11
 
 ]
 \tf@thm=\write5
@@ -945,15 +938,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  (./SUDAProject.aux (./includefile/frontmatter.aux) (./includefile/backmatter.aux))
 Package rerunfilecheck Info: File `SUDAProject.out' has not changed.
-(rerunfilecheck)             Checksum: D4C3F1D6101BC05DAD0BB884935F613E;1984.
+(rerunfilecheck)             Checksum: EBB19B1787C5CDF6B93A91F4E7FB844E;1710.
  ) 
 Here is how much of TeX's memory you used:
- 18938 strings out of 476919
- 389326 string characters out of 5825425
- 731279 words of memory out of 5000000
- 38558 multiletter control sequences out of 15000+600000
+ 18916 strings out of 476919
+ 387658 string characters out of 5825425
+ 730961 words of memory out of 5000000
+ 38536 multiletter control sequences out of 15000+600000
  412181 words of font info for 140 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,12n,118p,1198b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,12n,118p,1198b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on SUDAProject.pdf (19 pages).
+Output written on SUDAProject.pdf (16 pages).

@@ -77,40 +77,6 @@ WinEdt 9.0 之后的版本都是默认保存为 UTF-8 的.
 %pdf 文件也可以反向搜索! \CJKunderwave{双击~pdf 中要修改的文字, 将直接跳转到源文件中相应位置.}
 %
 
-
-
-
-
-\section{文档类型选择}
-文档类型有 2 种情形:
-
-\begin{table}[ht]\centering
-\begin{tabular}{ll}
-\hline
-   \verb|\documentclass{WHUBachelor}|                     &  毕业论文 \\
-   \verb|\documentclass[forprint]{WHUBachelor}|        &  毕业论文打印版 \\
-\hline
-\end{tabular}
-\end{table}
-相关解释见下节.
-
-
-\section{打印的问题}
-\begin{enumerate}[i]
-%  \item  论文要求\colorbox{yellow}{单面打印}.
-  \item  关于文档选项 forprint: 交付打印时, 建议加上选项 forprint, 以消除链接文字之彩色, 避免打印字迹偏淡.
-  \item  打印时留意不要缩小页面或居中. 即页面放缩方式应该是``无''(Adobe Reader XI 是选择``实际大小'').
-           有可能页面放缩方式默认为``适合可打印区域'', 会导致打印为原页面大小的 $97\%$.
-           文字不要居中打印, 是因为考虑到装订, 左侧的空白留得稍多一点(模板已作预留).
-  \item  遗留问题: 封面需要打印部重新制作.  校内打印部通常有现成的模板.
-           我们自己做的封面, 打印部不一定好用.
-\end{enumerate}
-%如果不是彩色打印机, 请在打印时, 选择将彩色打印为黑白, 否则彩色文字打出的墨迹会偏淡.
-
-\textbf{问}: {\kaishu 生成 PDF 文件时，不能去掉目录和文章的引用彩色方框，请问怎么解决？}
-
-\textbf{答}: {\kaishu 方框表示超级链接, 只在电脑上看得见. 实际打印时, 是没有的. 另外, 文档类型加选项 forprint 之后, 这些框框会隐掉的. }
-
  \vfill
 
 本模板修改自武汉大学黄正华教授模板.已获得黄教授授权. 本文档正文部分绝大部分为武汉大学模板内容,本文档下载更新地址: \url{https://github.com/Xuan423/LaTeX-template-Soochow-University./tree/main}. 使用之前, 请移步查看是否有更新.
@@ -131,7 +97,7 @@ WinEdt 9.0 之后的版本都是默认保存为 UTF-8 的.
 	                                & frontmatter.tex & 郑重声明、中英文摘要.               \\ \cline{2-3}
 	\raisebox{1em}{includefile 文件夹} &  backmatter.tex & 致谢.                       \\ \hline
 	\multicolumn{2}{l|}{figures 文件夹}                  & 存放图片文件.                   \\ \hline
-	\multicolumn{2}{l|}{WHUBachelor.cls }             & 定义文档格式的 class file. 不可删除. \\ \hline\hline
+	\multicolumn{2}{l|}{SUDAProject.cls }             & 定义文档格式的 class file. 不可删除. \\ \hline\hline
 \end{tabular}
 \end{table}
 
@@ -149,21 +115,9 @@ WinEdt 9.0 之后的版本都是默认保存为 UTF-8 的.
 
 
 \section{更新记录}
+2025年01月更新: 修复bug.
+
 2023年06月更新: 更新使其适配苏州大学毕业设计模板格式, 感谢黄教授等的信赖与授权公开.
-
-2016 年 06 月更新: 正文字体为小四号; 英文字体为 Times New Roman; 修订图表标题的字体、字号; 修订目录的字号; 修订附录章节编号的问题. 
-                          非常感谢武汉大学数学与统计学院 2012 级张仕俊、林颖倩、宋俍辰等同学. 
-
-2016 年 05 月更新: 参考文献加到目录. 感谢武汉大学经济与管理学院的郑中天同学. [上次修订使用的版本有误, 非常抱歉.]
-
-2016 年 02 月更新: 调整为适应 TeX Live 2015 的版本.
-
-2014 年 06 月更新: 修改章节标题、声明标题、图表标题的字体和大小. 再次感谢孙启航同学.
-
-2014 年 05 月更新: 参考文献加到目录. 感谢武汉大学计算机学院孙启航同学、数学与统计学院李振坤同学指出这个纰漏.
-
-2013 年 12 月更新: 加上英文封面. 教务部的写作规范中的附例, 并没有英文封面. 但是遇到很多同学说要加上.
-
 
  \section{字体调节}
 
@@ -329,34 +283,6 @@ x = 1.
     \end{tabular}
 \end{table}
 
-
-
-
-
-
-%%%%============================================================================================================%%%
-
-\chapter{其他事项}
-以下是广告时间, 插播一段广告:
-\begin{itemize}
-    \item 插图\index{插图}的制作, 建议用 pgf, 也叫 tikz.
-          pgf 的长处是源文件直接植入~\TeX~文档, 管理起来非常方便.
-    这里有我写的一个关于初次使用~pgf~的帖子:\\    \url{http://bbs.ctex.org/forum.php?mod=viewthread&tid=30480}.
-    \item 生成参考文献, 建议使用~BibTeX.\index{BibTeX} 这里有我写的一个文档: \\
-    \url{http://bbs.ctex.org/forum.php?mod=viewthread&tid=26056}.
-
-          {\kaishu 使用 BibTeX{} 做参考文献时,
-      借助 EndNote 或者 NoteExpress, 可以非常漂亮简单地解决 bib 文件的录入问题.
-      NoteExpress 在校图书馆网站有正版软件提供下载.
-      当然 EndNote 本身就是 Thomson Corporation 推出的(和 SCI 搜索引擎是同一家公司),
-      和多个重要文献搜索引擎有良好的功能配合.
-
-      Google 学术搜索也提供了文献的 bib 格式.
-      录入参考文献时, 偶尔用一用 Google 学术搜索, 还可以核查或减少录入的错误, 并减少录入的工作量.}
-
-    \item 幻灯片\index{幻灯片}的制作, 建议使用~Beamer. 这里有我写的一个模板, 谨供参考:\\
-    \url{http://bbs.ctex.org/forum.php?mod=viewthread&tid=27695}.
-\end{itemize}
 
 
 %%%============================================================================================================%%%
